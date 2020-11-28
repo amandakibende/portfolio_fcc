@@ -7,24 +7,55 @@
     <title>Portfolio</title>
   </head>
   <body>
+
+    <!--Navbar-->
     <nav id="navbar">
       <ul>
-        <li>Home</li>
-        <li>Work</li>
-        <li>About</li>
+        <li> <a href="#welcome-section">About</a></li>
+        <li> <a href="#projects">Work</a></li>
+        <li> <a href="#contact">Contact</a></li>
     </nav>
+
+    <!--About section-->
     <section id="welcome-section">
-      <h1></h1>
-      
+      <h1>Hello world,</h1>
+      <h2>My name is Amanda I'm a front-end developper based in Paris.</h2>
     </section>
+
+    <!--Projects sections-->
     <section id="projects" class="project-tile">
-      <a
-        href="https://cityhuntertributepage.netlify.app/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >City Hunter</a
-      >
+
+      <div class="container-card">
+<div class="flex-card">
+  <a href="https://cityhuntertributepage.netlify.app/" target="_blank" rel="noopener noreferrer">City Hunter</a>
+</div>
+
+<div class="flex-card">
+  <a href="https://bisgrow.netlify.app" target="_blank" rel="noopener noreferrer">Bisgrow</a>
+
+</div>
+<div class="flex-card">
+  <a href="http://https://auntiegingerrestaurant.netlify.app" target="_blank" rel="noopener noreferrer">Auntie
+    Ginger</a>
+</div>
+      </div>
+
+      
+
+        
+
     </section>
+
+    <!--Contact Section-->
+    <section id="contact">
+      <form action="mél" method="get">
+        <label for="name"></label>
+        <input type="text" placeholder="Name...">
+        <input type="button" value="send">
+      </form>
+    </section>
+
+    <!--Footer-->
     <footer>
       <a
         href="https://github.com/amandakibende"

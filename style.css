@@ -1,5 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+
 body {
   background-color: #333333;
   color: bisque;
-  font-size: 45px;
+  font-family: "Croissant One", sans-serif;
+}
+
+h1 {
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.flex-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-card {
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px;
+  column-gap: 10px;
+  row-gap: 15px;
+  justify-content: center;
+}
+
+.flex-card {
+  justify-self: center;
+  width: 55px;
+  height: 55px;
+  background-image: url(/img/ginger.png);
 }
