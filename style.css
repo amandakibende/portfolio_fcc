@@ -17,16 +17,12 @@ h1 {
 }
 
 .container-card {
-  grid-template-columns: 100px 50px 100px;
-  grid-template-rows: 80px auto 80px;
-  column-gap: 10px;
-  row-gap: 15px;
-  justify-content: center;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
 }
 
 .flex-card {
-  justify-self: center;
-  width: 55px;
-  height: 55px;
-  background-image: url(/img/ginger.png);
+  width: 200px;
+  height: 200px;
 }
