@@ -11,7 +11,7 @@ h1 {
   font-family: "Nanum Pen Script", cursive;
 }
 
-.flex-card a {
+.card a {
   text-decoration: none;
   color: inherit;
 }
@@ -20,9 +20,8 @@ h1 {
   display: flex;
   justify-content: space-around;
   flex-flow: row;
+  align-items: center;
 }
 
-.flex-card {
-  width: 200px;
-  height: 200px;
+.card {
 }
