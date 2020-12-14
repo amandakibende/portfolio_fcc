@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
 
 body {
@@ -8,7 +8,34 @@ body {
 }
 
 h1 {
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Anton", sans-serif;
+}
+
+nav {
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  font-style: oblique;
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  padding: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  margin-top: 100px;
 }
 
 .card a {
@@ -19,9 +46,23 @@ h1 {
 .container-card {
   display: flex;
   justify-content: space-around;
-  flex-flow: row;
+  flex-flow: wrap;
   align-items: center;
 }
 
+img {
+  width: 400px;
+  height: 300px;
+}
+
 .card {
+  width: 400px;
+  height: 300px;
+  margin: 25px;
+  transition: all 200ms ease-out;
+}
+
+.card:hover {
+  opacity: 30%;
+  transform: translateY(10px);
 }
