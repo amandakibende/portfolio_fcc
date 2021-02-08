@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
 body {
-  background-color: #333333;
-  color: #fff28e;
-  font-family: "Source Code Pro", monospace;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Assistant", sans-serif;
   font-size: 30px;
 }
 
 nav {
-  background-color: #333333;
+  background-color: #ffffff;
+  opacity: 80%;
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,12 +34,16 @@ section {
   margin-top: 100px;
 }
 
+#welcome-section {
+  height: 100vh;
+}
+
 .card a {
   text-decoration: none;
   color: inherit;
 }
 
-.container-card {
+.container-card-grid {
   display: flex;
   justify-content: space-around;
   flex-flow: wrap;
@@ -50,14 +55,14 @@ img {
   height: 300px;
 }
 
-.card {
+.project-tile {
   width: 400px;
   height: 300px;
   margin: 25px;
   transition: all 200ms ease-out;
 }
 
-.card:hover {
+.project-tile:hover {
   opacity: 30%;
   transform: translateY(10px);
 }
