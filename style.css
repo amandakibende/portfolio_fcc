@@ -4,6 +4,8 @@ body {
   color: #000000;
   font-family: "Assistant", sans-serif;
   font-size: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -15,19 +17,17 @@ nav {
 }
 
 nav ul {
+  margin-right: 2em;
   list-style: none;
-  font-style: oblique;
-  float: right;
-}
-
-nav ul li {
-  display: inline;
-  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav ul li a {
   text-decoration: none;
   color: inherit;
+  font-size: 23px;
+  margin: 10px;
 }
 
 section {
@@ -36,6 +36,45 @@ section {
 
 #welcome-section {
   height: 100vh;
+}
+
+#wlcm-parent {
+  display: flex;
+  direction: justify-content;
+}
+
+#wlcm-right,
+#wlcm-left {
+  width: 50%;
+}
+
+#wlcm-right {
+  padding: 5em;
+}
+
+input {
+  padding: 13px 40px;
+}
+
+button,
+.input-btn {
+  padding: 13px 30px;
+  border: 2px solid #fece2f;
+  background-color: #fece2f;
+  cursor: pointer;
+  transition: all 200ms ease-out;
+}
+
+button:hover,
+.input-btn:hover {
+  border: 2px solid #000000;
+  background-color: transparent;
+  color: #000000;
+}
+
+img#interview-img {
+  width: 20em;
+  height: 20em;
 }
 
 .card a {
