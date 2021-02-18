@@ -84,8 +84,8 @@ img#interview-img {
 
 .container-grid {
   display: grid;
-  grid-template-columns: 8px 8px 8px;
-  grid-template-rows: 8px 8px 8px;
+  grid-template-columns: 8px 8px;
+  grid-template-rows: 8px 8px;
   grid-gap: 15px;
   justify-content: space-around;
   justify-items: center;
@@ -103,4 +103,9 @@ p.text,
 img {
   width: 400px;
   height: 300px;
+}
+
+footer {
+  height: 50vh;
+  background-color: #fece2f;
 }
