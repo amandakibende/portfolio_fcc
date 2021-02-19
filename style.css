@@ -82,13 +82,42 @@ img#interview-img {
   height: 20em;
 }
 
-.container-grid {
+.project-section {
+  border: 5px solid black;
+}
+.wrapper-container {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 2rem 1rem;
+}
+.wrapper {
+  --auto-grid-min-size: 16rem;
   display: grid;
-  grid-template-columns: 8px 8px;
-  grid-template-rows: 8px 8px;
-  grid-gap: 15px;
-  justify-content: space-around;
-  justify-items: center;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size), 1fr)
+  );
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper div {
+  background-color: pink;
+  color: blueviolet;
+  font-size: 24px;
+  list-style-type: none;
+  padding: 5rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.grid-img {
+  width: 60px;
+  height: 60px;
 }
 
 p.text,
@@ -105,7 +134,28 @@ img {
   height: 300px;
 }
 
-footer {
+#contact {
   height: 50vh;
-  background-color: #fece2f;
+  background-color: #fcffcd;
+  padding: 3em;
+}
+
+p.text-contact {
+  text-align: center;
+  margin-top: 2em;
+}
+
+img.icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.8s ease-in-out;
+  margin: 5px;
+}
+
+img.icon:hover {
+  transform: translateY(-20px) rotate(360deg);
+}
+
+small {
+  font-size: 15px;
 }
