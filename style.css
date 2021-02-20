@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap");
 body {
   background-color: #ffffff;
   color: #000000;
-  font-family: "Assistant", sans-serif;
+  font-family: "Pragati Narrow", sans-serif;
   font-size: 30px;
   margin: 0;
   padding: 0;
@@ -91,17 +92,12 @@ img#interview-img {
   padding: 2rem 1rem;
 }
 .wrapper {
-  --auto-grid-min-size: 16rem;
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(var(--auto-grid-min-size), 1fr)
-  );
+  grid-template-columns: repeat(auto-fill, 1fr);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 
 .wrapper div {
@@ -110,8 +106,6 @@ img#interview-img {
   list-style-type: none;
   padding: 5rem 1rem;
   text-align: center;
-  text-transform: capitalize;
-  font-weight: 600;
 }
 
 .grid-img {
