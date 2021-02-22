@@ -94,7 +94,7 @@ img#interview-img {
 .wrapper {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -109,8 +109,8 @@ img#interview-img {
 }
 
 .grid-img {
-  width: 20em;
-  height: 20em;
+  width: 10em;
+  height: 10em;
 }
 
 p.text,
