@@ -83,9 +83,6 @@ img#interview-img {
   height: 20em;
 }
 
-.project-section {
-  border: 5px solid black;
-}
 .wrapper-container {
   margin: 0 auto;
   max-width: 1170px;
@@ -153,9 +150,23 @@ small {
   font-size: 13px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 660px) {
   body {
-    background-color:black;
-  color: #ffffff;
+    background-color: #0d1117;
+    color: #ffffff;
+  }
+
+  nav {
+    background-color: #0d1117;
+    opacity: 90%;
+  }
+
+  .wrapper div {
+    background-color: #0d1117;
+  }
+
+  #contact {
+    color: #000000;
+    background-color: #ffffff;
   }
 }
